@@ -22,6 +22,7 @@ public class MainActivity extends TabActivity {
 
 
 
+
         TabHost tabHost = getTabHost();
 
         TabHost.TabSpec tabSpec1 = tabHost.newTabSpec("tab1").setIndicator("시간표");

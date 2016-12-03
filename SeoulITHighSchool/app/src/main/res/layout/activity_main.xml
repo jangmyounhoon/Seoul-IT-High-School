@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:orientation="vertical"
@@ -56,68 +57,60 @@
                                     <TableLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:stretchColumns="*"
-                                        >
-
+                                        android:stretchColumns="*">
                                         <TableRow
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:background="#000000"
+                                            android:padding="6dp"
                                             >
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="교시/요일"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textStyle="normal|bold"
+                                                android:textColor="@android:color/background_dark" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="월"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="화"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="수"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="목"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-
                                                 android:text="금"
-                                                android:background="#777777"
-                                                android:textSize="20sp"
+                                                android:textSize="15sp"
                                                 android:gravity="center_horizontal"
-                                                />
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold" />
                                         </TableRow>
                                         <TableRow
                                             android:layout_width="match_parent"
@@ -142,7 +135,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="사회"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t1.2" />
@@ -156,14 +149,14 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="물리"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t1.4" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="디자"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t1.5" />
@@ -191,7 +184,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="영어"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t2.2" />
@@ -205,14 +198,14 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="창제"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t2.4" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="운동"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t2.5" />
@@ -240,7 +233,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="음악"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t3.2" />
@@ -254,14 +247,14 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="일본"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t3.4" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="경제"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t3.5" />
@@ -291,7 +284,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="국어"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t4.2" />
@@ -306,7 +299,7 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="서운"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t4.4" />
@@ -314,12 +307,11 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginRight="1dp"
-                                                android:text="number"
+                                                android:text="수학"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t4.5" />
                                         </TableRow>
-
                                         <TableRow
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
@@ -343,28 +335,28 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="수학"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t5.2" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="네기"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t5.3" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="서운"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t5.4" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="음악"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t5.5" />
@@ -386,28 +378,28 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="영어"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t6.1" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="정보"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t6.2" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="네기"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t6.3" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="서운"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t6.4" />
@@ -436,14 +428,14 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="국어"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t7.1" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:text="number"
+                                                android:text="물리"
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t7.2" />
@@ -453,7 +445,7 @@
                                                 android:textSize="15sp"
                                                 android:gravity="center_horizontal"
                                                 android:id="@+id/t7.3"
-                                                android:text="number" />
+                                                android:text="네기" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
@@ -497,54 +489,13 @@
                                         android:stretchColumns="*">
 
                                         <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:padding="6dp"
+                                        >
 
-                                            android:text="월"
-                                            android:background="#777777"
-                                            android:textSize="20sp"
-                                            android:gravity="center_horizontal"
-                                            />
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
 
-                                            android:text="화"
-                                            android:background="#777777"
-                                            android:textSize="20sp"
-                                            android:gravity="center_horizontal"
-                                            />
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-
-                                            android:text="수"
-                                            android:background="#777777"
-                                            android:textSize="20sp"
-                                            android:gravity="center_horizontal"
-                                            />
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-
-                                            android:text="목"
-                                            android:background="#777777"
-                                            android:textSize="20sp"
-                                            android:gravity="center_horizontal"
-                                            />
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-
-                                            android:text="금"
-                                            android:background="#777777"
-                                            android:textSize="20sp"
-                                            android:gravity="center_horizontal"
-                                            />
-                                        </TableRow>
+                                    </TableRow>
 
                                         <TableRow
                                             android:layout_width="match_parent"
@@ -552,256 +503,21 @@
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
+                                                android:text="목"
+                                                android:textSize="20sp"
+                                                android:gravity="center_vertical"
+                                                android:textColor="@android:color/background_dark"
+                                                android:textStyle="normal|bold"
+                                                android:id="@+id/s.2" />
                                             <TextView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                        </TableRow>
+                                                android:text="감자밥,소고기육개장,산적꼬지,전갱이구이,우리밀효모발효빵,보쌈김치"
+                                                android:gravity="center_vertical"
+                                                android:textSize="18sp"
+                                                android:id="@+id/s.3" />
 
-                                        <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                        </TableRow>
-
-                                        <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                        </TableRow>
-
-                                        <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                        </TableRow>
-
-                                        <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                        </TableRow>
-
-                                        <TableRow
-                                            android:layout_width="match_parent"
-                                            android:layout_height="match_parent">
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
-                                            <TextView
-                                                android:layout_width="wrap_content"
-                                                android:layout_height="wrap_content"
-                                                android:layout_marginRight="1dp"
-                                                android:text="number"
-                                                android:textSize="15sp"
-                                                android:gravity="center_horizontal"
-                                                />
                                         </TableRow>
 
                                     </TableLayout>
@@ -810,16 +526,31 @@
                         </LinearLayout>
                         <LinearLayout
                             android:id="@+id/tab3"
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:orientation="vertical">
 
+
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textSize="40dp"
                                 android:textStyle="normal|bold"
                                 android:text="시험일정" />
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/own"
+                                android:id="@+id/ib1" />
+
+                            <ImageButton
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                app:srcCompat="@drawable/two"
+                                android:id="@+id/ib2" />
+
+
                         </LinearLayout>
                     </FrameLayout>
                 </LinearLayout>
